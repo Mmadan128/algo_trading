@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 import os,time,requests,numpy as np,joblib
+load_dotenv()
 API_URL=os.getenv("API_URL","https://algotrading.sanyamchhabra.in/")
 API_KEY=os.getenv("TEAM_API_KEY","ak_3754ebcebb49579826c2d14fbddf27b4")
 HEADERS={"X-API-Key":API_KEY}
